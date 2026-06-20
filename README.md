@@ -112,8 +112,8 @@ Pizza-Sales-Analysis/
 
 ## 📸 Dashboard Preview
 
-<img width="995" height="527" alt="Screenshot (20) (1)" src="https://github.com/user-attachments/assets/ab72b85e-3705-4dc9-a428-0822acae7549" />
-<img width="1003" height="536" alt="Screenshot (21) (1) (1)" src="https://github.com/user-attachments/assets/f08af3c4-7326-4e04-a319-cab7d84e208b" />
+<img width="995" height="527" alt="powerbi dashboard" src="https://github.com/user-attachments/assets/ab72b85e-3705-4dc9-a428-0822acae7549" />
+<img width="1003" height="536" alt="powerbi dashboard" src="https://github.com/user-attachments/assets/f08af3c4-7326-4e04-a319-cab7d84e208b" />
 
 
 ## 🚀 Skills Demonstrated
