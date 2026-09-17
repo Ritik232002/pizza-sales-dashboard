@@ -1,135 +1,230 @@
+# 🍕 Pizza Sales Dashboard — Business Analysis
 
-# 🍕 Pizza Sales Analysis Dashboard
+An end-to-end sales analysis project built to answer practical business questions from pizza transaction data using **Excel, SQL, and Power BI**.
 
-## 📌 Project Overview
-
-This project analyzes pizza sales data to uncover business insights related to revenue, customer demand, product performance, and sales trends. Using SQL, Excel, and Power BI, raw transaction data was transformed into an interactive dashboard that helps stakeholders make data-driven decisions.
-
-The project focuses on identifying top-performing pizzas, understanding sales patterns across time periods, and evaluating the contribution of different pizza categories and sizes to overall revenue.
+The goal is not just to display KPIs, but to turn transactional sales data into a clear business story: **how the business is performing, which products drive revenue, which products underperform, what categories and sizes contribute most, and when demand is highest.**
 
 ---
 
-## 🎯 Business Objectives
+## 📌 Business Problem
 
-* Analyze overall sales performance.
-* Identify top-selling and low-performing pizzas.
-* Understand daily and monthly order trends.
-* Evaluate revenue contribution by pizza category and size.
-* Generate actionable insights for improving profitability.
+Raw transaction data can show what was sold, but it does not immediately explain what the business should pay attention to.
 
----
+This analysis was designed to answer questions such as:
 
-## 🛠️ Tools Used
+- Which products generate the most revenue?
+- Which products contribute the least?
+- Which pizza category contributes the most revenue?
+- Which pizza size drives revenue?
+- Which days have the highest order volume?
+- How does order volume change across months?
 
-* SQL Server
-* Microsoft Excel
-* Power BI
-* GitHub
+The dashboard combines these answers into an interactive Power BI view for faster business interpretation.
 
 ---
 
-## 📊 Key Performance Indicators (KPIs)
+## 📊 Business Questions & Findings
 
-* Total Revenue
-* Total Orders
-* Average Order Value
-* Total Pizzas Sold
-* Average Pizzas per Order
+### 1. How is the business performing overall?
 
----
+**Answer:**
 
-## 🔍 Analysis Performed
+- **Total Revenue:** 817.86K
+- **Total Orders:** 21.35K
+- **Total Pizzas Sold:** 49.57K
+- **Average Order Value:** 38.31
+- **Average Pizzas per Order:** 2.32
 
-### Sales Performance
+These KPIs provide the baseline for evaluating product, category, size, and time-based performance.
 
-* Total Revenue Analysis
-* Order Volume Analysis
-* Average Order Value Calculation
-
-### Product Analysis
-
-* Top 5 Pizzas by Revenue
-* Bottom 5 Pizzas by Revenue
-* Top 5 Pizzas by Quantity Sold
-* Bottom 5 Pizzas by Quantity Sold
-* Top 5 Pizzas by Total Orders
-
-### Category Analysis
-
-* Revenue Contribution by Pizza Category
-* Quantity Sold by Pizza Category
-
-### Size Analysis
-
-* Revenue Contribution by Pizza Size
-* Customer Preference Analysis by Size
-
-### Trend Analysis
-
-* Daily Order Trends
-* Monthly Order Trends
-* Peak Sales Period Identification
+![Overall KPIs](Dashboard%20Screenshots/01_overall_kpis.png)
 
 ---
 
-## 📈 Key Insights
+### 2. Which pizzas generate the most revenue?
 
-* Large-sized pizzas generated the highest percentage of revenue.
-* Classic category pizzas contributed the largest share of overall sales.
-* Certain pizzas consistently outperformed others in both revenue and quantity sold.
-* Sales varied significantly across days and months, indicating demand patterns that can be used for staffing and inventory planning.
-* A small group of products generated a significant portion of total revenue.
+**Answer:**
+
+The highest-revenue pizza in the analysis is **Thai Chicken Pizza**, generating approximately **43.43K** in revenue.
+
+Other strong performers include:
+
+| Rank | Pizza | Revenue |
+|---|---|---:|
+| 1 | Thai Chicken Pizza | 43.43K |
+| 2 | Barbecue Chicken Pizza | 42.77K |
+| 3 | California Chicken Pizza | 41.41K |
+| 4 | Classic Deluxe Pizza | 38.18K |
+| 5 | Spicy Italian Pizza | 34.83K |
+
+This identifies the products with the strongest revenue contribution in the analyzed period.
+
+![Top Products](Dashboard%20Screenshots/03_product_performance.png)
 
 ---
 
-## 💡 Business Recommendations
+### 3. Which pizzas underperform on revenue?
 
-* Promote high-performing pizzas through combo offers and upselling.
-* Re-evaluate low-performing pizzas and consider recipe, pricing, or menu adjustments.
-* Increase inventory planning for high-demand categories.
-* Schedule staff according to peak demand periods.
-* Use seasonal promotions during lower-performing months.
+**Answer:**
+
+Examples of lower-revenue products include:
+
+- **Brie Carre Pizza:** ~11.6K
+- **Green Garden Pizza:** ~14.0K
+- **Spinach Supreme Pizza:** ~15.3K
+
+These products are useful candidates for deeper investigation into demand, pricing, menu placement, and product mix.
+
+![Bottom Products](Dashboard%20Screenshots/03_product_performance.png)
+
+---
+
+### 4. Which pizza category contributes the most revenue?
+
+**Answer:**
+
+The **Classic** category contributes the largest share of revenue at **26.91%**.
+
+Revenue contribution by category:
+
+| Category | Revenue Share |
+|---|---:|
+| Classic | 26.91% |
+| Supreme | 25.46% |
+| Chicken | 23.96% |
+| Veggie | 23.68% |
+
+The category mix is relatively balanced, with Classic leading by a small margin.
+
+![Revenue by Category](Dashboard%20Screenshots/02_category_size_trends.png)
+
+---
+
+### 5. Which pizza size drives revenue?
+
+**Answer:**
+
+**Large pizzas** generate the highest revenue contribution at **45.89%**.
+
+The combined contribution of **Large + Medium pizzas is 76.38%**, making these two sizes the dominant part of the revenue mix.
+
+| Size | Revenue Share |
+|---|---:|
+| Large | 45.89% |
+| Medium | 30.49% |
+| Small | 21.77% |
+| XL | 1.72% |
+| XXL | 0.12% |
+
+![Revenue by Size](Dashboard%20Screenshots/02_category_size_trends.png)
+
+---
+
+### 6. Which day generates the most orders?
+
+**Answer:**
+
+**Friday** records the highest order volume at approximately **3,538 orders** among the displayed weekdays.
+
+**Sunday** records the lowest at approximately **2,624 orders**.
+
+The day-level trend helps identify differences in demand across the week and can support operational planning such as staffing and preparation capacity.
+
+![Daily Order Trend](Dashboard%20Screenshots/02_category_size_trends.png)
+
+---
+
+### 7. Which months have the highest and lowest order volumes?
+
+**Answer:**
+
+- **July:** highest monthly order volume at approximately **1,935 orders**
+- **September:** lowest monthly order volume at approximately **1,661 orders**
+
+This shows variation in monthly demand within the analyzed period. With one year of data, these differences should be treated as observed variation rather than proof of recurring seasonality.
+
+![Monthly Order Trend](Dashboard%20Screenshots/02_category_size_trends.png)
+
+---
+
+## 🔎 What the Analysis Tells the Business
+
+The analysis provides a practical view of where sales are concentrated:
+
+- Revenue is concentrated across a group of stronger-performing products.
+- Classic pizzas have the largest category revenue share, although the category mix is relatively balanced.
+- Large and Medium sizes account for most revenue.
+- Order demand varies across weekdays and months.
+- Lower-performing products can be isolated for further investigation instead of treating the menu as one uniform portfolio.
+
+The dashboard therefore acts as a **decision-support layer over the raw transaction data**, rather than simply presenting charts.
+
+---
+
+## 🛠️ Tools & Workflow
+
+**Excel** → data inspection, validation, and preprocessing  
+**SQL** → aggregation, filtering, grouping, KPI calculations, product/category/size/time analysis  
+**Power BI** → interactive dashboard and business storytelling  
+**GitHub** → project versioning and documentation
+
+### Workflow
+
+```text
+Raw Transaction Data
+        ↓
+Data Validation & Preparation (Excel)
+        ↓
+Business Analysis & Aggregation (SQL)
+        ↓
+Interactive Dashboard (Power BI)
+        ↓
+Business Findings & Recommendations
+```
 
 ---
 
 ## 📂 Repository Structure
 
-Pizza-Sales-Analysis/
-
+```text
+pizza-sales-dashboard/
+│
 ├── Dataset/
-
 ├── SQL Queries/
-
 ├── Power BI Dashboard/
-
 ├── Dashboard Screenshots/
-
 ├── Project Report/
-
 └── README.md
+```
 
 ---
 
-## 📸 Dashboard Preview
+## 📈 Dashboard Pages
 
-<img width="995" height="527" alt="powerbi dashboard" src="https://github.com/user-attachments/assets/ab72b85e-3705-4dc9-a428-0822acae7549" />
-<img width="1003" height="536" alt="powerbi dashboard" src="https://github.com/user-attachments/assets/f08af3c4-7326-4e04-a319-cab7d84e208b" />
+### Executive Overview
 
+Provides the core KPIs and high-level demand trends needed to understand overall performance.
 
-## 🚀 Skills Demonstrated
+### Product Performance
 
-* Data Cleaning
-* SQL Querying
-* Business Analysis
-* KPI Development
-* Data Visualization
-* Dashboard Design
-* Data Storytelling
+Compares products across revenue, quantity sold, and order contribution to identify stronger and weaker performers.
+
+---
+
+## 🎯 Skills Demonstrated
+
+- Excel data preparation and validation
+- SQL querying and business aggregations
+- KPI development
+- Power BI dashboard design
+- Product performance analysis
+- Category and size mix analysis
+- Time-based sales analysis
+- Business-focused data storytelling
 
 ---
 
 ## 👨‍💻 Author
 
-Ritik Khare
-
-Aspiring Data Analyst skilled in SQL, Excel, Power BI, and Business Intelligence.
+**Ritik Khare**  
+Aspiring Data Analyst | SQL | Excel | Power BI
