@@ -1,4 +1,3 @@
-<img width="680" height="105" alt="01_overall_kpis" src="https://github.com/user-attachments/assets/c3e78c1f-07de-402e-a116-5345ecb05a34" />
 # 🍕 Pizza Sales Dashboard — Business Analysis
 
 An end-to-end sales analysis project built to answer practical business questions from pizza transaction data using **Excel, SQL, and Power BI**.
@@ -38,7 +37,7 @@ The dashboard combines these answers into an interactive Power BI view for faste
 
 These KPIs provide the baseline for evaluating product, category, size, and time-based performance.
 
-![Overall KPIs]<img width="680" height="105" alt="01_overall_kpis" src="https://github.com/user-attachments/assets/a279ebc3-cc34-4fb8-a0f9-4221af50a311" />
+<img width="680" height="105" alt="01_overall_kpis" src="https://github.com/user-attachments/assets/a279ebc3-cc34-4fb8-a0f9-4221af50a311" />
 
 
 ---
@@ -51,17 +50,10 @@ The highest-revenue pizza in the analysis is **Thai Chicken Pizza**, generating 
 
 Other strong performers include:
 
-| Rank | Pizza | Revenue |
-|---|---|---:|
-| 1 | Thai Chicken Pizza | 43.43K |
-| 2 | Barbecue Chicken Pizza | 42.77K |
-| 3 | California Chicken Pizza | 41.41K |
-| 4 | Classic Deluxe Pizza | 38.18K |
-| 5 | Spicy Italian Pizza | 34.83K |
+<img width="215" height="140" alt="02_top_revenue_pizzas" src="https://github.com/user-attachments/assets/8b3d694a-6ccb-47c5-9e14-aced8349866a" />
+
 
 This identifies the products with the strongest revenue contribution in the analyzed period.
-
-![Top Products](Dashboard%20Screenshots/03_product_performance.png)
 
 ---
 
@@ -77,7 +69,7 @@ Examples of lower-revenue products include:
 
 These products are useful candidates for deeper investigation into demand, pricing, menu placement, and product mix.
 
-![Bottom Products](Dashboard%20Screenshots/03_product_performance.png)
+<img width="215" height="135" alt="03_bottom_revenue_pizzas" src="https://github.com/user-attachments/assets/68b8a2c0-40a1-4e0f-8799-a3f93134d6f5" />
 
 ---
 
@@ -98,7 +90,7 @@ Revenue contribution by category:
 
 The category mix is relatively balanced, with Classic leading by a small margin.
 
-![Revenue by Category](Dashboard%20Screenshots/02_category_size_trends.png)
+<img width="215" height="165" alt="04_category_revenue" src="https://github.com/user-attachments/assets/e90dbbd4-9e21-423b-bd06-14002d86bf9b" />
 
 ---
 
@@ -118,7 +110,7 @@ The combined contribution of **Large + Medium pizzas is 76.38%**, making these t
 | XL | 1.72% |
 | XXL | 0.12% |
 
-![Revenue by Size](Dashboard%20Screenshots/02_category_size_trends.png)
+<img width="230" height="165" alt="05_size_revenue" src="https://github.com/user-attachments/assets/a26c6d4a-68c8-42e8-839a-88e46044b2db" />
 
 ---
 
@@ -132,7 +124,7 @@ The combined contribution of **Large + Medium pizzas is 76.38%**, making these t
 
 The day-level trend helps identify differences in demand across the week and can support operational planning such as staffing and preparation capacity.
 
-![Daily Order Trend](Dashboard%20Screenshots/02_category_size_trends.png)
+<img width="325" height="150" alt="06_daily_orders" src="https://github.com/user-attachments/assets/f935acca-a25d-46bb-bb29-2287ffad36a8" />
 
 ---
 
@@ -145,7 +137,7 @@ The day-level trend helps identify differences in demand across the week and can
 
 This shows variation in monthly demand within the analyzed period. With one year of data, these differences should be treated as observed variation rather than proof of recurring seasonality.
 
-![Monthly Order Trend](Dashboard%20Screenshots/02_category_size_trends.png)
+<img width="335" height="150" alt="07_monthly_orders" src="https://github.com/user-attachments/assets/3d68f949-4d1b-4232-a7c7-9d3ca840bc79" />
 
 ---
 
