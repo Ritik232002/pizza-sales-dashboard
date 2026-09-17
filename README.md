@@ -1,3 +1,4 @@
+<img width="680" height="105" alt="01_overall_kpis" src="https://github.com/user-attachments/assets/c3e78c1f-07de-402e-a116-5345ecb05a34" />
 # 🍕 Pizza Sales Dashboard — Business Analysis
 
 An end-to-end sales analysis project built to answer practical business questions from pizza transaction data using **Excel, SQL, and Power BI**.
@@ -37,7 +38,8 @@ The dashboard combines these answers into an interactive Power BI view for faste
 
 These KPIs provide the baseline for evaluating product, category, size, and time-based performance.
 
-![Overall KPIs](Dashboard%20Screenshots/01_overall_kpis.png)
+![Overall KPIs]<img width="680" height="105" alt="01_overall_kpis" src="https://github.com/user-attachments/assets/a279ebc3-cc34-4fb8-a0f9-4221af50a311" />
+
 
 ---
 
